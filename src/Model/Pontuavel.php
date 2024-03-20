@@ -1,9 +1,8 @@
 <?php
 
-namespace Alura\Solid\Service;
+namespace Alura\Solid\Model;
 
 interface Pontuavel
 {
     public function pontuacao(): int;
-    public function assistir(): void;
 }
